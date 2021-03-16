@@ -175,4 +175,4 @@ public class WeekScheduler {
 			week[i].info();
 		}
 	}
-}
+} 
