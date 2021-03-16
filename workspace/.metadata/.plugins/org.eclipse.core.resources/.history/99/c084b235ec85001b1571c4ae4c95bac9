@@ -1,7 +1,0 @@
-package Quiz11;
-
-public class WeekScheduler {
-	//field
-	private int nthWeek;	//n주차
-	private 
-}

@@ -5,8 +5,6 @@
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="javax.print.DocFlavor.INPUT_STREAM"/>
 <fullyQualifiedTypeName name="java.lang.Character.Subset"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
@@ -21,4 +19,8 @@
 <fullyQualifiedTypeName name="ex07_recursive.Calculator"/>
 <fullyQualifiedTypeName name="quiz02.Coord"/>
 <fullyQualifiedTypeName name="quiz04.Gun"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="quiz12.SeatGroup"/>
+<fullyQualifiedTypeName name="quiz12.ConcertHall"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
