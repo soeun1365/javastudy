@@ -7629,3 +7629,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jdt.debug 2 0 2021-03-16 11:52:30.977
 !MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-16 15:28:45.810
+!MESSAGE close() called when useCnt is already zero for [RepositoryHandle:Repository[D:\spring0303\javastudy\.git\.git]]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-16 15:28:53.601
+!MESSAGE close() called when useCnt is already zero for Repository[D:\spring0303\javastudy\.git\.git]
