@@ -1,0 +1,13 @@
+package ex07_recursive;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		SayHello sh = new SayHello();
+		
+		sh.say();	//끝나지않음, 뻑나지 않게 하는게 중요
+
+	}
+
+}

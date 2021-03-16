@@ -1,0 +1,7 @@
+package quiz03;
+
+public class Singer {
+	
+	//field
+	private Song song;	//대표곡이 하나, 궁극적으로 이것도 할것임private Song[] songs;
+}

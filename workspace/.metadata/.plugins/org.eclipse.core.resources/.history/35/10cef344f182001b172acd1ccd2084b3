@@ -1,0 +1,12 @@
+package quiz04;
+
+public class Gun {
+	
+	//field
+	private String model;
+	private int bullet;
+	private final int FULL_BULLLEY=6;
+	
+	//Constructor
+	
+}

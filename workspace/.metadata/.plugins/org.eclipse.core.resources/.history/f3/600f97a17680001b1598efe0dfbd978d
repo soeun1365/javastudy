@@ -1,0 +1,14 @@
+package ex01_array;
+
+public class Ex03_array_reference {
+
+	public static void main(String[] args) {
+		// 배열은 reference type입니다.
+		
+		int[] arr = new int[3];
+		System.out.println(arr); 	//주소가 출력됨 [I@edf4efb
+
+
+	}
+
+}

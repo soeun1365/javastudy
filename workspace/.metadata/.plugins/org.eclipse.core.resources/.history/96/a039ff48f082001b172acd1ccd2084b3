@@ -1,0 +1,6 @@
+package quiz04;
+
+public class Gun {
+	private Stirng model;
+	private int bullet;
+}

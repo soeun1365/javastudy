@@ -1,0 +1,14 @@
+package ex02_loop;
+
+public class Ex04_nested_loop {
+
+	public static void main(String[] args) {
+		for(int out = 1 ; out<=10; out++) {
+			for(int in = 10 ; in <= 50 ; in+=10) {
+				
+			}
+		}
+
+	}
+
+}

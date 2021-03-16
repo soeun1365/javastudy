@@ -1,0 +1,26 @@
+package ex01_random;
+
+import java.util.Scanner;
+
+//로또 구매하기
+//동일번호가 같은줄에 있을 수 없음
+//오름차순으로 배열
+//1000원에 번호 6개 1세트가 나옵니다.
+//얼마?>>> 5000
+//
+public class Quiz06 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("얼마있습니까?>>> ");
+		int money = sc.nextInt();	//행의 개수는 money / 1000
+		
+		int[][] lotto = new int[money/1000][6];
+		
+		(Math.random()*45) + 1;
+		
+		
+	}
+
+}

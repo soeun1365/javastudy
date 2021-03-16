@@ -1,0 +1,22 @@
+package quiz03;
+
+public class Singer {
+	
+	//field
+	private String name;
+	private Song song;	//대표곡이 하나, 궁극적으로 이것도 할것임private Song[] songs;
+
+	//method
+	public Singer(String name) {
+		this.name = name;
+	}
+	public void setSong(Song song) {
+		this.song = song;
+	}
+
+	public void info() {
+		System.out.println(name);
+		song.info();
+	}
+
+}

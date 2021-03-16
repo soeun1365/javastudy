@@ -1,0 +1,12 @@
+package ex02_loop;
+
+public class Ex06_continue {
+
+	public static void main(String[] args) {
+		// continue문
+		// 1. loop문으로 되돌아가서 다시 실행합니다.
+		
+
+	}
+
+}

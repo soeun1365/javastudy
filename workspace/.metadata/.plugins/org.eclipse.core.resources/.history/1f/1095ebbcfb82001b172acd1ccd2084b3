@@ -1,0 +1,38 @@
+package quiz05;
+
+public class BankAccount {
+	
+	//field
+	private String accNo;	//계좌번호
+	private long balance;	//잔고
+	
+	//constructor
+	public BankAccount(String accNo, long balabce) {
+		this.accNo = accNo;
+		this.balance = balance;
+	}
+	
+	//method
+	public void deposit(int money) {
+		if(money > 0) {
+			this.balance += money;
+			System.out.println(money + "원 입금");
+		}else {
+			System.out.println(money + "원은 마이너스 입금은 불가능합니다.");
+		}
+	}
+	
+	public void withdraw(int money) {
+		if(money < this.balance) {
+			this.balance -= money;
+		}else if(this.balance <0) {
+			System.out.println("마이너스 출금은 불가능합니다.");
+		}else if(this.balance < money) {
+			System.out.println("잔고부족으로 불가능합니다.");
+		}
+	}
+	
+	public void inquiry() {
+		System.out.println("계좌번호: " + accNo + ", 잔액: " + this.balance);
+	}
+}

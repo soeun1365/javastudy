@@ -1,0 +1,18 @@
+package ex03_overloading;
+
+public class Rectangle {
+	int width;
+	int height;
+	int n;
+	
+	int set(int a, int b) {
+		int width = a;
+		int height = b;
+		n = garo * sero;
+	}
+	
+	int set(int i) {
+		int garo = a;
+		n = Math.pow(garo, 2);
+	}
+}

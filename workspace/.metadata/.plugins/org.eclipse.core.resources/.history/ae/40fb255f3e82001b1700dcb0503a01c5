@@ -1,0 +1,12 @@
+package ex05_consturctor;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Person p = new Person("alice", 30, '여');
+		
+		System.out.println(p.Person());
+	}
+
+}

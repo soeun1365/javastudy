@@ -1,0 +1,14 @@
+package quiz05;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		BankAccount me = new BankAccount("1111, 10000");
+		BankAccount you = new BankAccount("9999",10000);
+
+		//입금
+		me.deposit();
+	}
+
+}

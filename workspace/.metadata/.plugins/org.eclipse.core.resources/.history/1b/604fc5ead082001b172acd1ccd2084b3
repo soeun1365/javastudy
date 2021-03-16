@@ -1,0 +1,9 @@
+package ex07_recursive;
+
+public class Adder {
+	
+	public void calculate(int n) {
+		
+	}
+	
+}

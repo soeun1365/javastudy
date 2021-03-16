@@ -1,0 +1,45 @@
+package Quiz11;
+
+import java.util.Scanner;
+
+public class WeekScheduler {
+	//field
+	private int nthWeek;	//n주차
+	private Day[] week;
+	private String[] weekNames = {"일", "월", "화", "수", "목", "금", "토" };
+	private Scanner sc = new Scanner(System.in);
+	
+	//constructor
+	public WeekScheduler(int nthWeek) {
+		this.nthWeek = nthWeek;
+		week = new Day[7];
+		for(int i = 0 ; i < week.length ; i++) {
+			week[i] = new Day();
+		}
+	}
+	
+	//method
+	//1. run()
+	public void run() {
+		while(true) {
+			menu();
+			System.out.print("작업선택>>> ");
+			int choice = sc. nextInt();
+			sc.nextLine();	//choice 입력 뒤에 남아 있는 엔터를 제거하기 위한 코드
+			switch(choice) {
+			case 1 : 
+			}
+		}
+	}
+	
+	//2.menu()
+	public void menu() {
+		System.out.println("========스케쥴러========");
+		System.out.println("1. 스케쥴 만들기");
+		System.out.println("2. 스케쥴 삭제하기");
+		System.out.println("3. 스케쥴 수정하기");
+		System.out.println("4. 스케쥴 조회하기");
+		System.out.println("0. 프로그램 종료");
+		System.out.println("========================");
+	}
+}

@@ -1,0 +1,14 @@
+package quiz06;
+
+public class Book {
+
+	//field
+	String title;
+	String writter;
+	int price;
+	
+	
+	//constructor
+	
+	
+}

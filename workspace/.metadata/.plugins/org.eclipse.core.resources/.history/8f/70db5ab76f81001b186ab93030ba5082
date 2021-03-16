@@ -1,0 +1,19 @@
+package ex02_String;
+
+public class Ex03_StringBuffer {
+
+	public static void main(String[] args) {
+		
+		// java.lang.StringBuffer
+		// 특징
+		// 1. StringBuilder와 String Buffer는 같은 일을 합니다. 
+		// 사용법, 목적이 같음, 쓰레드를 썼을땐 
+		// 2. StringBuilder는 single thread 환경에서 사용하고,
+		//	  StringBuffer는 multiple thread 환경에서 사용합니다.
+		//	  (StringBuffer는 thread safe한 클래스입니다.)
+		
+		
+
+	}
+
+}

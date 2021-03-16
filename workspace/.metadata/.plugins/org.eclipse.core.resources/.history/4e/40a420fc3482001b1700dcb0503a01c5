@@ -1,0 +1,12 @@
+package quiz04;
+
+public class Book {
+
+	String name;
+	String writter;
+	int price;
+	
+	void set() {
+		
+	}
+}

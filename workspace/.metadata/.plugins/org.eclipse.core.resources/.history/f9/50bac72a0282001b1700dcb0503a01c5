@@ -1,0 +1,19 @@
+package ex03_api;
+
+/*
+  	날짜/시간 패턴(pattern)
+  	1. 년: yy, yyyy
+  	2. 월: M, MM
+  	3. 일: d, dd
+  	4. 요일: E, (일~토)
+ */
+
+public class Ex05_SimpleDatdFormat {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

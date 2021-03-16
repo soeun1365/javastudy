@@ -1,0 +1,13 @@
+package ex02_loop;
+
+public class Ex05_break {
+
+	public static void main(String[] args) {
+		
+		// break문: 
+		// 1. switch문을 종료합니다.
+		// 2. loop문을 종료합니다.
+
+	}
+
+}

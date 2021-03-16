@@ -1,0 +1,12 @@
+package ex01_random;
+
+public class Ex01_Random {
+
+	public static void main(String[] args) {
+		
+		// java.util.Random 랜덤생성해주는 클래스
+		
+
+	}
+
+}

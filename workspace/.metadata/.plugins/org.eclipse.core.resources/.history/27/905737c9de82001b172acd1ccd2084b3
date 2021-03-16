@@ -1,0 +1,16 @@
+package quiz02;
+
+public class Coord {
+
+	//field
+	private int x;
+	private int y;
+	
+	public Coord(int x, int y) {
+		
+	}
+	
+	public void info() {
+		
+	}
+}

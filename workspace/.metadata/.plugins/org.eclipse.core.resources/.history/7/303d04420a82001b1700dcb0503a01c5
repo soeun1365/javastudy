@@ -1,0 +1,21 @@
+package ex03_api;
+/*
+  	wrapper class (어떤 클래스들의 그룹)
+  	1.primitive type -> reference type 변경해주는 클래스
+  	2.변수 -> 객체로 변경해주는 클래스입니다.
+  	3.종류
+  		1) int 			-> 		integer
+  		2) long 		-> 		Long
+  		3) double 		-> 		Double
+  		4) char 		-> 		Character
+  		5) boolean	 	-> 		Boolean
+ */
+public class Ex06_Wrapper_class {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

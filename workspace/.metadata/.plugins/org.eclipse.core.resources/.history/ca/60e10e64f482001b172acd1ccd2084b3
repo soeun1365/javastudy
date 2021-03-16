@@ -1,0 +1,20 @@
+package quiz04;
+
+public class Soilder {
+
+	//field
+	private String name;
+	private Gun gun;
+	
+	public Soilder(String name, Gun gun) {
+		this.name = name;
+		this.gun = gun;
+	}
+	public Soilder(int n) {
+		System.out.println( n+ "발이 장전되었다. 현재 " + (gun.getBullet() + n) +"발");
+	}
+	
+	//method
+	
+	}
+}

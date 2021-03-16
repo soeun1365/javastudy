@@ -1,0 +1,10 @@
+package ex01_user_type;
+/* 클래스 구성
+	
+	field
+	
+*/
+public class Person {
+
+	
+}

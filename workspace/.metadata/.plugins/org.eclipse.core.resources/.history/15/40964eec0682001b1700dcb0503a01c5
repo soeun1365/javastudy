@@ -1,0 +1,6 @@
+package ex03_api;
+
+public class Quiz02 {
+	public static void main(String[] args) {
+		
+}

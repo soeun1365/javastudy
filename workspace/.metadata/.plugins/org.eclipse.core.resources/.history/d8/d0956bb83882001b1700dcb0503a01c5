@@ -1,0 +1,11 @@
+package ex04_this;
+/*
+ 	this
+	1. this는 객체 자신을 의미
+	2. 내부에서만 사용합니다.
+*/
+public class Car {
+	void info() {
+		System.out.println("this: "+ this);
+	}
+}

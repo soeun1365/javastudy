@@ -1,0 +1,9 @@
+package quiz02;
+
+public class Coord {
+
+	//field
+	private int x;
+	private int y;
+	
+}

@@ -1,0 +1,14 @@
+package quiz02;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		//Calculator calc; 	//객체는 없고, 참조변수만 있는 상태입니다.
+		
+		Calculator calc = new Calculator();	//객체가 만들어지고, 그 참조값이 calc에 전달된다
+		calc.addition(1, 2);
+		System.out.println(calc.substraction(1, 2));
+	}
+
+}

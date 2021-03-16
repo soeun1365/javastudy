@@ -1,0 +1,27 @@
+package ex01_random;
+
+import java.util.Scanner;
+
+//Up down 게임
+//1~10000 사이의 난수가 발생되면 사용자가 해당 난수를 맞추는 게임
+//입력>>> 5000
+//Up
+//입력>>> 7500
+//Down
+//입력>>> 7499
+//총 3번만에 정답입니다.
+
+public class Quiz02 {
+
+	public static void main(String[] args) {
+		int inputNum = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		do {
+		System.out.println("입력>>> ");
+		inputNum = sc.nextInt();
+		}while(inputNum == sc.nextInt(););
+		System.out.println(n + "번만에 정답입니다.");
+	}
+
+}

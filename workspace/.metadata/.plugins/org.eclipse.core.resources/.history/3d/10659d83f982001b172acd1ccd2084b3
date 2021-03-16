@@ -1,0 +1,20 @@
+package quiz05;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		BankAccount me = new BankAccount("1111, 10000");
+		BankAccount you = new BankAccount("9999",10000);
+
+		//입금
+		me.deposit(10000);	//10000원 입금
+		me.deposit(-10000);	//마이너스 입금은 불가능합니다.
+		
+		//출금
+		you.withdraw(5000);
+		you.withdraw(-1000);	//마이너스 출금은 불가능합니다.
+		you.withdraw(-10000);	//잔액부족입니다.
+	}
+
+}

@@ -1,0 +1,15 @@
+package ex01_random;
+
+//윷놀이
+//"도", 1칸이동
+//"개", 2칸이동
+//"걸", 3칸이동
+//"윧", "개" 6칸이동
+//"모", "모" "도" 11칸이동
+public class Quiz03 {
+	public static void main(String[] args) {
+		String[]yut = {"도","개","걸","윷","모"};
+		int move = 0;	//이동횟수
+		
+	}
+}

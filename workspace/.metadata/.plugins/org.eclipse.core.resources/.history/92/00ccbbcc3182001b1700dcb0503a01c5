@@ -1,0 +1,28 @@
+package ex03_overloading;
+/*
+ 	오버로딩(overroading)
+ 	1. 이름이 같고, 매개변수가 다른 메소드가 있음을 의미
+ */
+public class Rectangle {
+	
+	//field
+	int width;
+	int height;
+	
+	//method
+	void set(int w, int h) {
+		int width = w;
+		int height = h;
+	}
+	
+	//method
+	void set(int n) {
+		int width = n;
+		int height = n;
+	}
+	
+	//method
+	int getArea() {
+		return width * height;
+	}
+}

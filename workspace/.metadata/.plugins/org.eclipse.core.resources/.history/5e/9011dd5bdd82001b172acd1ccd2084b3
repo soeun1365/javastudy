@@ -1,0 +1,13 @@
+package quiz02;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Coord center = new Coord(0,0);
+		Circle won = new Circle(center, 1.5);
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package ex01_random;
+
+// Ex01_Random 보다 이 Math를 많이 씀
+
+public class Ex02_Math {
+
+	public static void main(String[] args) {
+		
+		//java. lang. Math 임폴트 필요없는 기본클래스
+		
+		System.out.println(Math.random()); 		
+
+	}
+
+}

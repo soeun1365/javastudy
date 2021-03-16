@@ -1,0 +1,36 @@
+package quiz04;
+
+public class Book {
+
+	String title;
+	String writter;
+	int price;
+	
+	void set(String t, String w, int p) {
+		title = t;
+		writter = w;
+		price = p;
+	}
+
+	void set(String t, String w) {
+		title = t;
+		writter = w;
+	}
+	void set(String t, int p) {
+		title = t;
+
+		price = p;
+	}
+	
+	void info(String title, String writter, int price) {
+		System.out.println("제목: " + title + ", 저자: " + writter + ", 가격: " + price);
+	}
+	
+	void info(String title, String writter) {
+		System.out.println("제목: " + title + ", 저자: " + writter);
+	}
+	
+	void info(String title, int price) {
+		System.out.println("제목: " + title + ", 가격: " + price);
+	}
+}

@@ -1,0 +1,7 @@
+package Quiz11;
+
+public class Day {
+	//field
+	private String schedule;
+	
+}

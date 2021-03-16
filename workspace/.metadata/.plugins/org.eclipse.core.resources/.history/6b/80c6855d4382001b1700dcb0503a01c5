@@ -1,0 +1,30 @@
+package quiz06;
+
+public class Book {
+
+	//field
+	String title;
+	String writter;
+	int price;
+	
+	//constructor
+	Book(String title, String writter, int price){
+		this.title = title;
+		this.writter = writter;
+		this.price = price;
+	}
+	Book(String title, int price){
+		this("어린왕자", "생택쥐베리", 10000);
+	}
+	Book(String title, int price){
+		this(title, "미상", price);
+	}
+	Book(){
+			this("없음", "미상", 0);
+			//this("없음", 0)	 이렇게 써도 무관
+		}
+	info(){
+		System.out.println("제목: "+ title + "저자: " + writter + "가격: " );
+	}
+	
+}

@@ -1,0 +1,12 @@
+package ex01_random;
+
+//로또 구매하기
+
+public class Quiz06 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

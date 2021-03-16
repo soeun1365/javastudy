@@ -1,0 +1,12 @@
+package quiz01;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Watch watch = new Watch(10,45,30);	//(10시, 45분, 30초)
+		watch.addHour(25);	//25시간 후
+
+	}
+
+}

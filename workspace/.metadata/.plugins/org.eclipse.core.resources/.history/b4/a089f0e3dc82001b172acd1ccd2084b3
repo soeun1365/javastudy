@@ -1,0 +1,8 @@
+package quiz02;
+
+public class Circle {
+
+	//field
+	private Coord cneter;
+	private double radius;
+}

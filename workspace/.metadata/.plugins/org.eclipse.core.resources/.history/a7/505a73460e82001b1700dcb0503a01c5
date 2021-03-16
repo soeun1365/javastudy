@@ -1,0 +1,6 @@
+package ex01_user_type;
+
+public class Person {
+
+	// 크랠스 구성
+}

@@ -1,0 +1,51 @@
+package quiz01;
+
+public class Watch {
+	//field
+	private int hour;
+	private int minute;
+	private int second;
+	
+	//constructor
+	public Watch(int hour, int minute, int second){
+		this.hour = hour;
+		this.minute = minute;
+		this.second = second;
+	}
+	
+	public int getHour() {
+		return hour;
+	}
+	public void setHour(int hour) {
+		this.hour = hour;
+	}
+	public int getMinute() {
+		return minute;
+	}
+	public void setMinute(int minute) {
+		this.minute = minute;
+	}
+	public int getSecond() {
+		return second;
+	}
+	public void setSecond(int second) {
+		this.second = second;
+	}
+	
+	public int addHour(int hour) {
+		return hour += (this.hour + hour / 24);
+	}
+	
+	public int addMinute(int minute) {
+		return minute += (this.minute + minute / 60);
+	}
+	
+	public int addSecond(int second) {
+		return second += (this.second + second / 60);
+	}
+	
+	public void see() {
+		System.out.println(hour + "시 " + minute + "분 " + second + "초");
+	}
+	
+}

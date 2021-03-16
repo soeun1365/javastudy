@@ -1,0 +1,24 @@
+package ex02_2d_array;
+
+//구구단의 결과만 2차원 배열에 저장하고 출력하기
+//2 4 6 ///18
+//3 6 9 ///27
+//...
+//9 18 27 ///81
+
+public class Quiz02 {
+
+	public static void main(String[] args) {
+		for(int i=2 ; i<=9 ; i++) {			//i는 단
+			for(int j=1 ; j<= 9 ;j++) {		//j는 행
+				int[][] gu = new int[i][j];
+				
+				System.out.print();
+			}
+		}
+		
+		
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package ex03_overloading;
+
+public class Rectangle {
+	
+	//field
+	int width;
+	int height;
+	
+	//method
+	void set(int w, int h) {
+		int width = w;
+		int height = h;
+	}
+	
+	//method
+	void set(int n) {
+		int garo = a;
+		n = Math.pow(garo, 2);
+	}
+}

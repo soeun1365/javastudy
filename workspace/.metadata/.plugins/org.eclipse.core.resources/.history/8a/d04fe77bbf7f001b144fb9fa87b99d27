@@ -1,0 +1,11 @@
+package ex02_loop;
+
+public class Ex07_label {
+
+	public static void main(String[] args) {
+		
+		for()
+
+	}
+
+}

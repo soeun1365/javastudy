@@ -1,0 +1,20 @@
+package quiz04;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Gun gun = new Gun("K2", 2);
+		Soilder soilder = new Soilder("람보", gun);
+		
+		soldier.shoot();	//빵야! 1발 남았다.
+		soldier.shoot();	//빵야! 0발 남았다.
+		soldier.shoot();	//헛빵!
+		
+		solider.reload(2);	//2발이 장전되었다. 현재2발.
+		soldier.reload(6);	//4발이 장전되었다. 현재6발.
+
+
+	}
+
+}

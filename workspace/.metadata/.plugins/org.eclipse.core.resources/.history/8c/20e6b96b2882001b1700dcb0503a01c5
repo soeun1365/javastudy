@@ -1,0 +1,11 @@
+package quiz02;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Calculator c = new Calculator();
+		c.addition(1, 2);
+		c.substraction(1, 2)
+	}
+
+}

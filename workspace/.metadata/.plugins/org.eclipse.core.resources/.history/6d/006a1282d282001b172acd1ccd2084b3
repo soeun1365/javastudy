@@ -1,0 +1,9 @@
+package ex07_recursive;
+
+public class Calculator {
+
+	//역할: n!값을 반환합니다.
+	public int getFactorial(int n) {
+		
+	}
+}

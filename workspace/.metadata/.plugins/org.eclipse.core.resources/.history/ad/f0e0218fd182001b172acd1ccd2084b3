@@ -1,0 +1,17 @@
+package ex07_recursive;
+
+public class Adder {
+	//field
+	private int total;	//필드라서 초기화 0으로 되어있음
+	
+	public void calculate(int n) {
+		if(n == 0) {
+			return;	//method를 끝내는코드
+		}
+		total += n;
+		calculate(n-1);
+		System.out.println(total);
+	}
+	
+	
+}

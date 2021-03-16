@@ -1,0 +1,14 @@
+package quiz02;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		//Calculator calc;
+		
+		Calculator calc = new Calculator();
+		calc.addition(1, 2);
+		System.out.println(calc.substraction(1, 2));
+	}
+
+}

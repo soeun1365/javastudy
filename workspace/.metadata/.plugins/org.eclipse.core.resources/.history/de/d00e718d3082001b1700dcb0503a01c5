@@ -1,0 +1,12 @@
+package ex03_overloading;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Rectangle nemo1 = new Rectangle();
+		nemo1.set(3,4);
+		
+	}
+
+}

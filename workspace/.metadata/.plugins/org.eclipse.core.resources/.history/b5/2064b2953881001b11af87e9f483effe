@@ -1,0 +1,22 @@
+package ex01_random;
+
+// Ex01_Random 보다 이 Math를 많이 씀
+
+public class Ex02_Math {
+
+	public static void main(String[] args) {
+		
+		//java. lang. Math 임폴트 필요없는 기본클래스
+		
+		System.out.println(Math.random()); 		// 0.0 <=  난수 <  1.0
+		
+		//Math.random()의 결과가 0.1보다 작을 확률은 얼마일까요?	--> 10%
+		//Math.random()의 결과가 0.2보다 작을 확률은 얼마일까요?	--> 20%
+		//크기비교로 확률 만들 수 있음
+		
+		//10% 확률로 아이템을 강화했을때  "강화성공", 90% 확률로"강화실패"
+		
+
+	}
+
+}

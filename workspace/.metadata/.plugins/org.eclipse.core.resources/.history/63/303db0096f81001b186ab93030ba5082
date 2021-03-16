@@ -1,0 +1,13 @@
+package ex02_String;
+
+public class Ex03_StringBuffer {
+
+	public static void main(String[] args) {
+		
+		// java.lang.StringBuffer
+		// 특징
+		// StringBuilder와 String Buffer는 같은 일을 합니다.
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package ex02_loop;
+
+public class Ex05_break {
+
+	public static void main(String[] args) {
+		
+		// break문: 
+		// 1. switch문을 종료합니다.
+		// 2. loop문을 종료합니다.
+		
+		// 주요 사용
+		//무한루프 + break문
+		
+		// 무한루프
+		// 1. while(true){ } -- 추천
+		// 2. for( ; ; ){ }
+
+	}
+
+}

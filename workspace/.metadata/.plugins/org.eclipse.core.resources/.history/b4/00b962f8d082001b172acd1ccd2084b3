@@ -1,0 +1,11 @@
+package ex07_recursive;
+
+public class Adder {
+	//field
+	private int total;
+	
+	public void calculate(int n) {
+		
+	}
+	
+}

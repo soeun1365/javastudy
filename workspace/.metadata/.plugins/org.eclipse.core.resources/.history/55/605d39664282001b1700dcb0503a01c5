@@ -1,0 +1,23 @@
+package quiz06;
+
+public class Book {
+
+	//field
+	String title;
+	String writter;
+	int price;
+	
+	//constructor
+	Book(String title, String writter, int price){
+		this.title = title;
+		this.writter = writter;
+		this.price = price;
+	}
+	Book(){
+		this.Book("없음", "미상", 0);
+	}
+	Book(String title, int price){
+		this.Book("홍길동전", "미상", 5000);
+	}
+	
+}

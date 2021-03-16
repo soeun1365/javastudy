@@ -1,0 +1,12 @@
+package ex02_String;
+
+//시간을 입력받아서 출력하기
+//시간을 입력하세요>>> 
+public class Quiz01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

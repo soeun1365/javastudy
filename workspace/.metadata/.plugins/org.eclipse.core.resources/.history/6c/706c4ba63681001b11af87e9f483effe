@@ -1,0 +1,19 @@
+package ex01_random;
+
+import java.util.Random;
+
+public class Ex01_Random {
+
+	public static void main(String[] args) {
+		
+		// java.util.Random 랜덤생성해주는 클래스
+		
+		Random random = new Random();
+		
+		// 1. int 난수
+		int rand1 = random.nextInt();		//int 중에 하나
+		int rand2 = random.nextInt(10);		
+
+	}
+
+}
