@@ -10,7 +10,7 @@ public class MainClass {
 		Calculator calc = new Calculator();
 		
 		System.out.println(calc.getTotal1(a));
-		System.out.println(calc.getTotal1(s)); //메소드 내부에서 s의 타입 String이 Number로 캐스팅 되다가 예외 발생
+		//System.out.println(calc.getTotal1(s)); //메소드 내부에서 s의 타입 String이 Number로 캐스팅 되다가 예외 발생
 		
 		System.out.println(calc.getTotal2(b));
 		//System.out.println(calc.getTotal2(s));	//아예 빨간줄나옴

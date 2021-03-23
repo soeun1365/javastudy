@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="javax.print.DocFlavor.INPUT_STREAM"/>
-<fullyQualifiedTypeName name="java.lang.Character.Subset"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="ex01_user_type.Person"/>
-<fullyQualifiedTypeName name="java.sql.Date"/>
-<fullyQualifiedTypeName name="quiz02.Calculator"/>
-<fullyQualifiedTypeName name="quiz05.Circle"/>
-<fullyQualifiedTypeName name="ex07_recursive.SayHello"/>
-<fullyQualifiedTypeName name="ex07_recursive.Calculator"/>
-<fullyQualifiedTypeName name="quiz02.Coord"/>
-<fullyQualifiedTypeName name="quiz04.Gun"/>
-<fullyQualifiedTypeName name="quiz12.SeatGroup"/>
 <fullyQualifiedTypeName name="quiz12.ConcertHall"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="quiz.SalesMan"/>
@@ -59,5 +44,20 @@
 <fullyQualifiedTypeName name="java.lang.Error"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="ex08_static.MyMath"/>
+<fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+<fullyQualifiedTypeName name="lombok.Data"/>
+<fullyQualifiedTypeName name="ex17_Object.ex03.Dog"/>
+<fullyQualifiedTypeName name="lombok.Getter"/>
+<fullyQualifiedTypeName name="lombok.Setter"/>
+<fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+<fullyQualifiedTypeName name="ex17_Object.ex04.Product"/>
+<fullyQualifiedTypeName name="ex17_Object.quiz.Score"/>
+<fullyQualifiedTypeName name="javax.swing.Box"/>
+<fullyQualifiedTypeName name="java.lang.Float"/>
+<fullyQualifiedTypeName name="ex01_generic.Box"/>
+<fullyQualifiedTypeName name="ex01_generic.Fruit"/>
+<fullyQualifiedTypeName name="ex02_generic.Box"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.Number"/>
+<fullyQualifiedTypeName name="ex04_generic_method.Calculator"/>
 </qualifiedTypeNameHistroy>
