@@ -18,7 +18,7 @@ public class TestMainClass {
 			
 			// ====================클래스 메소드 getConnection()====================
 			Connection con = DBConnection.getConnection();
-			//DBConnection public뒤에 static을 붙여서 클래스이름으로 호출한다.
+			//DBConnection public뒤에 static을 붙여서 클래스이름으로 호출한다.	//같은 패키지의 DBConnection클래스에 getConnection메소드를 호출
 			//new할 필요가 없음
 			//접속할때 필요한 정보들은 new로 새롭게 만들 필요가 없기 때문 다 같으니까
 			
