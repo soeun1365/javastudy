@@ -20,7 +20,7 @@ public class SelectOneMainClass {
 		try {
 			con = DBConnection.getConnection();
 			String sql = "SELECT no, name, department, hireDate FROM staff WHERE no = 2";
-			//SELECT할때 한개가 나오게 하려면 WHERE절에 PRIMARY KEY를 사용하면 됨
+			//SELECT할때 한개가 나오게 하려면 WHERE절에 PRIMARY KEY를 사용하면 됨	//유일성만족
 			ps = con.prepareStatement(sql);
 			rs = ps.executeQuery();		//SELECT문은 executeQuiry()를 사용한다.
 			//rs에 저장된 데이터는 "반드시" next()메소드로 호출해서 꺼냅니다.
@@ -46,7 +46,7 @@ public class SelectOneMainClass {
 				System.out.println("해당 staff이 없습니다.");
 			}
 		}catch(Exception e) {
-			
+			e.printStackTrace();
 		}finally {
 			try {
 				if(rs != null) {

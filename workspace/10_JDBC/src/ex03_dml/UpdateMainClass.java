@@ -1,7 +1,9 @@
-package connection;
+package ex03_dml;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+
+import connection.DBConnection;
 
 public interface UpdateMainClass {
 	

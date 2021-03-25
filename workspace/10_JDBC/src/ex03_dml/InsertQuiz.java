@@ -1,4 +1,4 @@
-package ex02_ddl;
+package ex03_dml;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
