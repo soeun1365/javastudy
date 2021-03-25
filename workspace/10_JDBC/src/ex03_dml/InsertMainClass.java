@@ -23,7 +23,7 @@ public class InsertMainClass {
 			// executeUpdate() 메소드 반화값은
 			// 변화가 생긴 행(row)의 개수가 반환됩니다
 			// insert실패하면 result에 0, 성공하면 insert 성공한 행(row)의 개수 반환
-			if(result ==0) {
+			if(result == 0) {
 				System.out.println("행이 추가되지 않았습니다.");			//no가 primary Key이기 때문에(Not null, Unique가 충족되어야 하므로 중복 insert는 안됨)
 			}else {
 				System.out.println("정상적으로 행이 추가되었습니다.");
