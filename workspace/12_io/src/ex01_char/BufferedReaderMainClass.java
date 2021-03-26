@@ -2,7 +2,6 @@ package ex01_char;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
 
 public class BufferedReaderMainClass {
 
@@ -29,7 +28,7 @@ public class BufferedReaderMainClass {
 			while(readcharCount != -1) {
 				sb.append(cbuf, 0, readcharCount);
 			}
-		}catch(IOException e) {
+		}catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
