@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="lombok.Data"/>
-<fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-<fullyQualifiedTypeName name="quiz04.Book"/>
-<fullyQualifiedTypeName name="quiz04.Library"/>
-<fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
-<fullyQualifiedTypeName name="java.lang.Class"/>
-<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-<fullyQualifiedTypeName name="connection.UpdateMainClass"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="connection.DBConnection"/>
 <fullyQualifiedTypeName name="main.StaffMainClass"/>
 <fullyQualifiedTypeName name="main.StaffManager"/>
 <fullyQualifiedTypeName name="dao.StaffDao"/>
@@ -50,7 +39,6 @@
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="ex02_byte.BufferedOutputStreamMainClass"/>
@@ -60,4 +48,16 @@
 <fullyQualifiedTypeName name="ex01.Person"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="ex02.Player"/>
+<fullyQualifiedTypeName name="ex03_join.Calculator"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="ex04_priority.HomeWork"/>
+<fullyQualifiedTypeName name="ex04_priority.WatchTV"/>
+<fullyQualifiedTypeName name="java.net.InetAddress"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="ex01_network.URL"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="ex01_network.URLConnectionMainClass"/>
+<fullyQualifiedTypeName name="java.net.URLConnection"/>
 </qualifiedTypeNameHistroy>
