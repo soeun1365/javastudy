@@ -9,7 +9,7 @@ import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class MainClas {
+public class MainClass {
 
 	public static void main(String[] args) {
 		
