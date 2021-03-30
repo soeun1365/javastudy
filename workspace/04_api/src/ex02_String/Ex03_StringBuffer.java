@@ -12,9 +12,6 @@ public class Ex03_StringBuffer {
 		//	  StringBuffer는 multiple thread 환경에서 사용합니다.
 		//	  (StringBuffer는 thread safe한 클래스입니다.)
 		//	  -> 잘 모르겠음 걍 빌더말고 버퍼써라 (safe하다니까)
-		
-		
-
 	}
 
 }

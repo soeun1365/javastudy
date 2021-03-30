@@ -8,7 +8,7 @@ package ex01;
   		2) Runnable 인터페이스를 구현합니다. (implements Runnable)
  	3. 기본규칙
  		1)run()메소드 : 스레드의 작업을 작성하는 메소드입니다. 오버라이드 해서 사용합니다.
- 		2)start()메소드 : 스레드를 실행하느 메소드이니다. run()를 호출하지 않습니다.
+ 		2)start()메소드 : 스레드를 실행하는 메소드이니다. run()를 호출하지 않습니다.
  */
 
 public class Person extends Thread {
