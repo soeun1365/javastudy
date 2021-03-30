@@ -1,7 +1,6 @@
 package ex02_socket;
 
 import java.io.IOException;
-import java.io.ObjectInputStream.GetField;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
